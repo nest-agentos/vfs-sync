@@ -1,5 +1,5 @@
 {
-  "name": "@itookit/vfs-sync",
+  "name": "@nestos/vfs-sync",
   "version": "0.1.1",
   "type": "module",
   "main": "./src/index.ts",
@@ -30,7 +30,7 @@
   "packageManager": "pnpm@10.20.0",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nest-agentos/vfs-sync.git"
+    "url": "git+https://github.com/nest-agentos/vfs-sync.git"
   },
   "bugs": {
     "url": "https://github.com/nest-agentos/vfs-sync/issues"

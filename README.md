@@ -1,4 +1,4 @@
-# @itookit/vfs-sync
+# @nestos/vfs-sync
 
 Platform-independent multi-device file synchronization with **zero runtime package dependencies**.
 Includes three-way comparison, bounded text merge, canonical manifests, dataset
@@ -26,7 +26,7 @@ repository with their upstream provenance. CI uses Node.js 22.
 ## Usage
 
 ```ts
-import { encodeManifest, sha256, mergeText } from '@itookit/vfs-sync';
+import { encodeManifest, sha256, mergeText } from '@nestos/vfs-sync';
 
 const bytes = encodeManifest({ format: 'fs-agent.files', version: 1, entries: [] });
 const digest = await sha256(bytes);
